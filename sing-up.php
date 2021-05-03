@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form-v4 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/line-awesome/css/line-awesome.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<?php 
+
+require "validation_form.php";
+
+?>
+<body class="form-v4">
 	<div class="page-content">
 		<div class="form-v4-content">
 			<div class="form-left">
@@ -55,4 +74,11 @@
 				</div>
 			</form>
 		</div>
-	</div> 
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	 <script src="js/validation_form.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>
