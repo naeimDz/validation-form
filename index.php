@@ -1,5 +1,5 @@
 <?php 
-require ("auth.php");
+require ("php/auth.php");
 
 if(isset($_POST['logout'])){
 	unset($_SESSION['userName']);
@@ -14,4 +14,4 @@ if(isset($_POST['logout'])){
 <form method="post">
 <button type="submit" name="logout">logOut</button>
 </form>
-<p><a class="btn btn-primary" href="logout.php?id=<?php echo $_SESSION['userName']; ?>">تسجيل الخروج</a></p>
+<p><a class="btn btn-primary" href="php/logout.php?id=<?php echo $_SESSION['userName']; ?>">تسجيل الخروج</a></p>

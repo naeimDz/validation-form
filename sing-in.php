@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <?php 
-require "db.php";
+require "php/db.php";
 session_start();
 $message_error="";
 		if(isset($_SESSION['userName'])) {
